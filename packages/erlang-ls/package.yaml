@@ -13,11 +13,11 @@ categories:
 
 source:
   # renovate:datasource=github-tags
-  id: pkg:github/erlang-ls/erlang_ls@0.52.0
+  id: pkg:github/Hamcha/erlang_ls@1.10.0-rel
   build:
     - target: win
       run: |
-        rebar3 escriptize
+        rebar3 version
       erlang_ls: _build/default/bin/erlang_ls.cmd
     - target: unix
       run: |
