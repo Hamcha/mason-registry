@@ -17,7 +17,7 @@ source:
   build:
     - target: win
       run: |
-        rebar3 version
+        rebar3 -v
       erlang_ls: _build/default/bin/erlang_ls.cmd
     - target: unix
       run: |
