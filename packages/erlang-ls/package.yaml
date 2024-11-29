@@ -13,7 +13,7 @@ categories:
 
 source:
   # renovate:datasource=github-tags
-  id: pkg:github/Hamcha/erlang_ls@1.10.0-rel
+  id: pkg:github/Hamcha/erlang_ls@1.1.0-rel
   build:
     - target: win
       run: |
